@@ -7,7 +7,7 @@ on:
 
 jobs:
   train:
-    runs-on: rocky
+    runs-on: self-hosted
     strategy:
       fail-fast: false
     steps:
