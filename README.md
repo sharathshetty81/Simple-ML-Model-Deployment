@@ -18,7 +18,7 @@ This project demonstrates how to deploy a pre-trained machine learning model as 
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/ml-prediction-api.git
+https://github.com/sharathshetty81/Simple-ML-Model-Deployment.git
 cd ml-prediction-api
 ```
 
