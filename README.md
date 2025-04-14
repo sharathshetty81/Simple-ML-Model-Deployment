@@ -22,27 +22,12 @@ git clone https://github.com/yourusername/ml-prediction-api.git
 cd ml-prediction-api
 ```
 
-### Using Docker Compose (Recommended)
-
-```bash
-docker-compose up --build
-```
-
 ### Using Docker Directly
 
 ```bash
 docker build -t ml-prediction-api .
 docker run -p 5000:5000 ml-prediction-api
 ```
-
-### Running Without Docker
-
-```bash
-pip install -r requirements.txt
-python -m model.model  # Train and save the model
-python -m api.app      # Start the API server
-```
-
 ## API Endpoints
 
 - `GET /health` - Check if the API is running
